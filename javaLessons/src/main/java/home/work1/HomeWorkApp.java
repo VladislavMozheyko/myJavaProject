@@ -17,21 +17,21 @@ public class HomeWorkApp {
         int b=15;
         int res=a+b;
         if(res>=0){
-            System.out.print("Сумма положительная ");
+            System.out.println("Сумма положительная ");
 
         }else {
-            System.out.print("Сумма отрицательная ");
+            System.out.println("Сумма отрицательная ");
         }
 
     }
     public static void printColor() {
         int value = 100;
         if (value <= 0) {
-            System.out.println("\nКрасный");
+            System.out.println("Красный");
         } else if (value <= 100) {
-            System.out.println("\nЖелтый");
+            System.out.println("Желтый");
         } else if (value > 100) {
-            System.out.println("\nЗеленый");
+            System.out.println("Зеленый");
         }
     }
     public static void compareNumbers(){
