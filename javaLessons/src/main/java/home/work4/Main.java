@@ -21,6 +21,6 @@ public class Main {
         dog1.maxRun(500);
         dog1.maxSwim(10);
         System.out.println();
-        System.out.println("Было создано: "+Animal.count+" животных.");
+        System.out.println("Было создано: " + Animal.count + " животных.\n" + "Было создано собак : " + Dog.count + "\nБыло создано котов: " + Cat.count);
     }
 }
