@@ -11,15 +11,15 @@ public class Main {
         cat1.run = scan.nextInt();
         System.out.print("Введите расстояние для заплыва " + cat1.type + " " + cat1.name + " ");
         cat1.swim = scan.nextInt();
-        cat1.maxRun();
-        cat1.maxSwim();
+        cat1.maxRun(200);
+        cat1.maxSwim(0);
         System.out.println();
         System.out.print("Введите расстояние для забега " + dog1.type + " " + dog1.name + " ");
         dog1.run = scan.nextInt();
         System.out.print("Введите расстояние для заплыва " + dog1.type + " " + dog1.name + " ");
         dog1.swim = scan.nextInt();
-        dog1.maxRun();
-        dog1.maxSwim();
+        dog1.maxRun(500);
+        dog1.maxSwim(10);
         System.out.println();
         System.out.println("Было создано: " + Animal.count + " животных.\n" + "Было создано собак : " + Dog.count + "\nБыло создано котов: " + Cat.count);
     }

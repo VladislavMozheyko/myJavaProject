@@ -10,19 +10,8 @@ public class Cat extends Animal {
         count++;
     }
 
-    public void maxRun() {
-        if (this.run <= 200) {
-            System.out.println(type + " " + name + " расстояние забега " + run + "м");
-        } else {
-            System.out.println(type + " " + name + " расстояние для забега слишком велико.");
-        }
-    }
-
-    public void maxSwim( ) {
-        if (this.swim <= 0) {
-            System.out.println(type + " " + name + " расстояние заплыва " + swim + "м");
-        } else {
-            System.out.println(" Коты не умеют плавать!");
-        }
+    @Override
+    public void maxSwim(int dist) {
+        System.out.println("коты не умеют плавать.");
     }
 }
