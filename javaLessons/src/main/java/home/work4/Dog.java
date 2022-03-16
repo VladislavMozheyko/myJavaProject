@@ -8,4 +8,19 @@ public class Dog extends Animal {
         count++;
     }
 
+    public void maxRun() {
+        if (this.run <= 500) {
+            System.out.println(type + " " + name + " расстояние забега " + run + "м");
+        } else {
+            System.out.println(type + " " + name + " расстояние для забега слишком велико.");
+        }
+    }
+
+    public void maxSwim() {
+        if (this.swim <= 10) {
+            System.out.println(type + " " + name + " расстояние заплыва " + swim + "м");
+        } else {
+            System.out.println(type + " " + name + " расстояние для заплыва слишком велико.");
+        }
+    }
 }
