@@ -1,7 +1,7 @@
 package home.work6;
 
 public class Main {
-    public static void main(String[][] args) {
+    public static void main(String[] args) {
         String[][] arr = new String[][]{
                 {"1", "1", "1", "1"},
                 {"2", "2", "2", "2"},
