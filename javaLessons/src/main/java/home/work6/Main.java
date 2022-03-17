@@ -1,7 +1,6 @@
 package home.work6;
 
-public class Metod1 {
-
+public class Main {
     public static void main(String[][] args) {
         String[][] arr = new String[][]{
                 {"1", "1", "1", "1"},
@@ -43,7 +42,3 @@ public class Metod1 {
         return count;
     }
 }
-
-
-
-
