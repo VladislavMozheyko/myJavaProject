@@ -13,11 +13,11 @@ public class Main {
                 int test = arrMetod(arr);
                 System.out.println(test);
             } catch (MyArraySizeException e) {
-                System.out.println("Неверный размер массива.");
+                System.out.println(" Неверный размер массива.");
             }
         } catch (MyArrayDataException e) {
-            System.out.println("Неверное значение в массиве.");
-            System.out.println("Ошибка в ячейках " + e.i + " " + e.j);
+            System.out.println(" Неверное значение в массиве.");
+            System.out.println(" Ошибка в ячейках " + e.i + " " + e.j);
         }
 
     }
