@@ -142,7 +142,7 @@ public class AppData {
             System.out.println("Поток закрыт.");
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }//appData.save();
 
     }
 }
